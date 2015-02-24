@@ -1,0 +1,54 @@
+.tx-datec-losungen .tx-datec-losungen-info {
+    padding: 10px;
+}
+
+.tx-datec-losungen .typo3-messages {
+    font-weight: 600;
+}
+
+.tx-datec-losungen .typo3-message.message-ok {
+    color: green;
+}
+
+.tx-datec-losungen .typo3-message.message-warning {
+    color: inherit;
+}
+
+.tx-datec-losungen .typo3-message.message-error {
+    color: red;
+}
+
+.tx-datec-losungen .title {
+    margin-bottom: 20px;
+}
+
+.tx-datec-losungen .watchword {
+    margin-bottom: 20px;
+}
+
+.tx-datec-losungen .watchword-date {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.tx-datec-losungen .watchword-text > label {
+	font-weight: 600;
+	margin: 0;
+}
+
+.tx-datec-losungen .watchword-verse {
+	font-style: italic;
+    text-align: right;
+}
+
+.tx-datec-losungen .watchword-watchwordVerse {    
+    margin-bottom: 10px;
+}
+
+.tx-datec-losungen .watchword-didactictextVerse {
+    
+}
+
+.tx-datec-losungen .licenses {
+    text-align: center;
+}

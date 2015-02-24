@@ -1,0 +1,51 @@
+<f:layout name="Default"/>
+
+<f:section name="main">
+<f:if condition="{losung}">
+	<f:then>
+		<div class="title">
+			<h4><f:translate key="tx_dateclosungen.titles.losungenController.showLosung" /></h4>
+		</div>
+		<div class="watchword">
+			<div class="watchword-header">
+				<f:translate key="tx_dateclosungen.labels.watchword" />
+			</div>
+			<div class="watchword-date">
+				<f:if condition="{settings.display.dateFormat}"> 
+					<f:then>	
+						<f:format.date format="{settings.display.dateFormat}">{losung.date}</f:format.date>
+					</f:then>
+					<f:else>
+						<f:translate key="dates.week.{losung.date -> f:format.date(format:'N')}" />, <f:format.date format="j">{losung.date}</f:format.date>. <f:translate key="dates.month.{losung.date -> f:format.date(format:'m')}" /> <f:format.date format="Y">{losung.date}</f:format.date>
+					</f:else>
+				</f:if>
+			</div>
+			<div class="watchword-text watchword-watchwordText">
+				<label><f:translate key="tx_dateclosungen.labels.watchword.watchwordText" />:</label><br />
+				{losung.watchwordText}
+			</div>
+			<div class="watchword-verse watchword-watchwordVerse">
+				{losung.watchwordVerse}
+			</div>
+			<div class="watchword-text watchword-didactictextText">
+				<label><f:translate key="tx_dateclosungen.labels.watchword.didactictextText" />:</label><br />
+				{losung.didactictextText}
+			</div>
+			<div class="watchword-verse watchword-didactictextVerse">
+				{losung.didactictextVerse}
+			</div>
+		</div>
+		<div class="licenses">
+			<f:for each="{settings.display.licenses}" as="license">
+				<f:link.external uri="{license.url}" target="_blank">[{license.text}]</f:link.external><br />
+			</f:for>
+		</div>
+	</f:then>
+	<f:else>		
+		<div id="tx-datec-losungen-info" class="tx-datec-losungen-info">
+			<f:flashMessages renderMode="div" />
+		</div>
+	</f:else>
+</f:if>
+
+</f:section>

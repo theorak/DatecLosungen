@@ -1,0 +1,70 @@
+﻿.. ==================================================
+.. FOR YOUR INFORMATION
+.. --------------------------------------------------
+.. -*- coding: utf-8 -*- with BOM.
+
+.. include:: ../Includes.txt
+
+
+.. _configuration:
+
+Configuration Reference
+=======================
+
+The extension is configured by default to use the watchwords from www.losungen.de, as is required by the attached terms of service (NUTZUNGSBEDINGUNGEN.pdf).
+But if necessary, you can modify the URL of the server and the required filenames.
+
+You may also adapt the templates or partials for redesign.
+
+.. _configuration-typoscript:
+
+TypoScript Reference
+--------------------
+
+Properties
+^^^^^^^^^^
+
+.. container:: ts-properties
+
+
+	================================================    =============   ==========================================================================   ===========
+	Property                                            Data type       Description                                                                  Default
+	================================================    =============   ==========================================================================   ===========
+	view.templateRootPath                               string          Constant, path to template files if you wish to use your own.                EXT:datec_losungen/Resources/Private/Templates/
+	view.partialRootPath                                string          Constant, path to partial template files if you wish to use your own.        EXT:datec_losungen/Resources/Private/Partials/
+	view.layoutRootPath                                 string          Constant, path to layout files if you wish to use your own.                  EXT:datec_losungen/Resources/Private/Layouts/
+	settings.display.dateFormat                         string          Date format string, compatible with PHP function date(). Only used if set.
+	settings.display.licenses                           array           Array of licenses with text and url                                          2 default licenses
+	settings.xmlConf.serverUrl                          string          Server root, where to download the watchwords zip from.                      http://www.brueder-unitaet.de/download/
+	settings.xmlConf.zipName                            string          Name of the ZIP file, include YEAR to have it yearly replaced.               Losung_YEAR_XML.zip
+	settings.xmlConf.xmlName                            string          Name of the XML file, include YEAR to have it yearly replaced.               Losungen Free YEAR.xml
+	settings.xmlConf.termsName                          string          Name of the terms-of-use file.                                               Nutzungsbedingungen.pdf
+	settings.xmlConf.encoding                           string          Encoding of the xml file, will decode for iso or utf8 output.                iso
+	settings.xmlConf.xmlTree.rootNode                   string          Name of the root node in XML.                                                FreeXml
+	settings.xmlConf.xmlTree.treeNode                   string          Name of the tree node in XML.                                                Losungen
+	settings.xmlConf.xmlTree.branchDate                 string          Name of the watchword DATE branch node in XML.                               Datum
+	settings.xmlConf.xmlTree.branchWeekday              string          Name of the watchword WEEKDAY branch node in XML.                            Wtag
+	settings.xmlConf.xmlTree.branchSunday               string          Name of the watchword SUN/-HOLYDAY branch node in XML.                       Sonntag
+	settings.xmlConf.xmlTree.branchWatchwordText        string          Name of the watchword WATCHWORD TEXT branch node in XML.                     Losungstext
+	settings.xmlConf.xmlTree.branchWatchwordVerse       string          Name of the watchword WATCHWORD VERSE branch node in XML.                    Losungsvers
+	settings.xmlConf.xmlTree.branchDidactictextText     string          Name of the watchword DIDACTIC-TEXT TEXT branch node in XML.                 Lehrtext
+	settings.xmlConf.xmlTree.branchDidactictextVerse    string          Name of the watchword DIDACTIC-TEXT VERSE branch node in XML.                Lehrtextvers
+	================================================    =============   ==========================================================================   ===========
+
+
+Property details
+^^^^^^^^^^^^^^^^
+
+Write **settings.display.licenses** like so:
+
+.. code-block:: typoscript
+
+  licenses {
+    0 {
+      text = licensetext
+      url = http://www.ebu.de/
+    }
+    1 {
+      ...
+    }
+  }

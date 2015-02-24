@@ -1,0 +1,11 @@
+ChangeLog for Datec Losungen
+============================
+
+This is the changelog description file for 'datec_losungen' authored by Philipp Roensch.
+
+------------------------
+
+Release Version 1.0.0
+=====================
+
+This is the first full stable release of 'datec_losungen'

@@ -1,0 +1,46 @@
+page {
+	includeCSS {
+		datec_losungen_style = EXT:datec_losungen/Resources/Public/Css/style.css
+	}
+}
+
+plugin.tx_dateclosungen_losungen {
+	view {
+		templateRootPath = {$plugin.tx_dateclosungen.view.templateRootPath}
+		partialRootPath = {$plugin.tx_dateclosungen.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_dateclosungen.view.layoutRootPath}
+	}
+    settings {
+        xmlConf {
+        	serverUrl = http://www.brueder-unitaet.de/download/
+        	zipName = Losung_YEAR_XML.zip
+        	xmlName = Losungen Free YEAR.xml
+        	termsName = Nutzungsbedingungen.pdf
+        	encoding = iso
+        	xmlTree {
+        		rootNode = FreeXml
+        		treeNode = Losungen
+				branchDate = Datum
+				branchWeekday = Wtag
+				branchSunday = Sonntag
+        		branchWatchwordText = Losungstext
+        		branchWatchwordVerse = Losungsvers        		
+        		branchDidactictextText = Lehrtext
+        		branchDidactictextVerse = Lehrtextvers
+        	}
+        } 
+        display {
+        	dateFormat = 
+        	licenses {
+        		0 {
+        			text = © Evangelische Brüder-Unität - Herrnhuter Brüdergemeinde
+        			url = http://www.ebu.de/
+        		}
+        		1 {
+        			text = Weitere Informationen finden sie hier
+        			url = http://www.losungen.de/
+        		}
+        	}
+        }
+    }
+}

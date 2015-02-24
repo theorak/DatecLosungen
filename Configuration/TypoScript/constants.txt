@@ -1,0 +1,10 @@
+plugin.tx_dateclosungen {
+	view {
+	    # cat=plugin.tx_dateclosungen: advanced/140/layoutRootPath; type=string; label=Layout Root Path: Path to layouts
+	    layoutRootPath = EXT:datec_losungen/Resources/Private/Layouts/
+	    # cat=plugin.tx_dateclosungen: advanced/140/partialRootPath; type=string; label=Partial Root Path: Path to partials
+	    partialRootPath = EXT:datec_losungen/Resources/Private/Partials/
+	    # cat=plugin.tx_dateclosungen: advanced/140/templateRootPath; type=string; label=Template Root Path: Path to templates
+	    templateRootPath = EXT:datec_losungen/Resources/Private/Templates/
+	}
+}

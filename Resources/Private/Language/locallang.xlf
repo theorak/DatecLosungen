@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-01s-01T17:17:17Z" product-name="datec_losungen">
+		<header/>
+		<body>			
+			<trans-unit id="tx_dateclosungen.titles.losungenController.showLosung">
+				<source>Watchwords of today</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dateclosungen.labels.watchword">
+				<source>The watchwords of the Herrnhuter Brüdergemeinde:</source>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.labels.watchword.watchwordText">
+				<source>Watchword Text</source>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.labels.watchword.didactictextText">
+				<source>Didactic Text</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dateclosungen.messages.noWatchword">
+				<source>No current watchword found.</source>
+			</trans-unit>			
+						
+			<trans-unit id="tx_dateclosungen.errors.unknown">
+				<target>An unknown error occurred.</target>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.errors.configurationError">
+				<source>Something is very wrong with the configuration.</source>
+			</trans-unit>			
+			<trans-unit id="tx_dateclosungen.errors.watchwordNotLoaded">
+				<target>The watchword couldn't be loaded.</target>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotFound">
+				<source>The watchwords ZIP file was not found.</source>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotSaved">
+				<source>The watchwords ZIP file could not be saved.</source>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotReadable">
+				<source>The watchwords ZIP file could not be read.</source>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotUnpacked">
+				<source>The watchwords ZIP file could not be unpacked.</source>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.xmlFileNotFound">
+				<source>The watchwords XML file was not found.</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-01-01T17:17:17Z" product-name="datec_losungen">
+		<header/>
+		<body>			
+			<trans-unit id="tx_dateclosungen.titles.losungenController.showLosung">
+				<target>Tageslosung</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_dateclosungen.labels.watchword">
+				<target>Die Losungen der Herrnhuter Brüdergemeinde:</target>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.labels.watchword.watchwordText">
+				<target>Losungstext</target>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.labels.watchword.didactictextText">
+				<target>Lehrtext</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_dateclosungen.messages.noWatchword">
+				<target>Es wurde keine aktuelle Losung gefunden.</target>
+			</trans-unit>			
+						
+			<trans-unit id="tx_dateclosungen.errors.unknown">
+				<target>Es ist ein unbekannter Fehler aufgetreten.</target>
+			</trans-unit>			
+			<trans-unit id="tx_dateclosungen.errors.configurationError">
+				<target>Irgendwas ist falsch mit der Konfiguration.</target>
+			</trans-unit>			
+			<trans-unit id="tx_dateclosungen.errors.watchwordNotLoaded">
+				<target>Die Losung konnte nicht geladen werden.</target>
+			</trans-unit>		
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotFound">
+				<target>Die Losungen ZIP-Datei wurde nicht gefunden.</target>
+			</trans-unit>		
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotSaved">
+				<target>Die Losungen ZIP-Datei konnte nicht gespeichert werden.</target>
+			</trans-unit>		
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotReadable">
+				<target>Die Losungen ZIP-Datei konnte nicht gelesen werden.</target>
+			</trans-unit>		
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotUnpacked">
+				<target>Die Losungen ZIP-Datei konnte nicht entpackt werden.</target>
+			</trans-unit>
+			<trans-unit id="tx_dateclosungen.errors.fileErrors.xmlFileNotFound">
+				<target>Die Losungen XML-Datei wurde nicht gefunden.</target>
+			</trans-unit>
+			
+			<trans-unit id="dates.week.current">
+				<target>Woche vom: </target>
+			</trans-unit>
+			<trans-unit id="dates.week.1">
+				<target>Montag</target>
+			</trans-unit>
+			<trans-unit id="dates.week.2">
+				<target>Dienstag</target>
+			</trans-unit>
+			<trans-unit id="dates.week.3">
+				<target>Mittwoch</target>
+			</trans-unit>
+			<trans-unit id="dates.week.4">
+				<target>Donnerstag</target>
+			</trans-unit>
+			<trans-unit id="dates.week.5">
+				<target>Freitag</target>
+			</trans-unit>
+			<trans-unit id="dates.week.6">
+				<target>Samstag</target>
+			</trans-unit>
+			<trans-unit id="dates.week.7">
+				<target>Sonntag</target>
+			</trans-unit>
+			<trans-unit id="dates.week.1_short">
+				<target>Mo</target>
+			</trans-unit>
+			<trans-unit id="dates.week.2_short">
+				<target>Di</target>
+			</trans-unit>
+			<trans-unit id="dates.week.3_short">
+				<target>Mi</target>
+			</trans-unit>
+			<trans-unit id="dates.week.4_short">
+				<target>Do</target>
+			</trans-unit>
+			<trans-unit id="dates.week.5_short">
+				<target>Fr</target>
+			</trans-unit>
+			<trans-unit id="dates.week.6_short">
+				<target>Sa</target>
+			</trans-unit>
+			<trans-unit id="dates.week.7_short">
+				<target>So</target>
+			</trans-unit>
+			<trans-unit id="dates.month.01">
+				<target>Januar</target>
+			</trans-unit>
+			<trans-unit id="dates.month.02">
+				<target>Februar</target>
+			</trans-unit>
+			<trans-unit id="dates.month.03">
+				<target>März</target>
+			</trans-unit>
+			<trans-unit id="dates.month.04">
+				<target>April</target>
+			</trans-unit>
+			<trans-unit id="dates.month.05">
+				<target>Mai</target>
+			</trans-unit>
+			<trans-unit id="dates.month.06">
+				<target>Juni</target>
+			</trans-unit>
+			<trans-unit id="dates.month.07">
+				<target>Juli</target>
+			</trans-unit>
+			<trans-unit id="dates.month.08">
+				<target>August</target>
+			</trans-unit>
+			<trans-unit id="dates.month.09">
+				<target>September</target>
+			</trans-unit>
+			<trans-unit id="dates.month.10">
+				<target>Oktober</target>
+			</trans-unit>
+			<trans-unit id="dates.month.11">
+				<target>November</target>
+			</trans-unit>
+			<trans-unit id="dates.month.12">
+				<target>Dezember</target>
+			</trans-unit>
+			<trans-unit id="dates.month.01_short">
+				<target>Jan</target>
+			</trans-unit>
+			<trans-unit id="dates.month.02_short">
+				<target>Feb</target>
+			</trans-unit>
+			<trans-unit id="dates.month.03_short">
+				<target>Mär</target>
+			</trans-unit>
+			<trans-unit id="dates.month.04_short">
+				<target>Apr</target>
+			</trans-unit>
+			<trans-unit id="dates.month.05_short">
+				<target>Mai</target>
+			</trans-unit>
+			<trans-unit id="dates.month.06_short">
+				<target>Jun</target>
+			</trans-unit>
+			<trans-unit id="dates.month.07_short">
+				<target>Jul</target>
+			</trans-unit>
+			<trans-unit id="dates.month.08_short">
+				<target>Aug</target>
+			</trans-unit>
+			<trans-unit id="dates.month.09_short">
+				<target>Sep</target>
+			</trans-unit>
+			<trans-unit id="dates.month.10_short">
+				<target>Okt</target>
+			</trans-unit>
+			<trans-unit id="dates.month.11_short">
+				<target>Nov</target>
+			</trans-unit>
+			<trans-unit id="dates.month.12_short">
+				<target>Dez</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
