@@ -24,10 +24,10 @@ Datec Losungen
 		de|en
 
 	:Description:
-		Manual covering TYPO3 extension Datec Losungen
+		Adds a frontend plugin to fetch and display the daily German watchwords ("Losungen").
 
 	:Keywords:
-		datec, losungen, watchwords, brüdergemeinde
+		datec, losungen, watchwords, brüdergemeine
 
 	:Copyright:
 		2015
@@ -47,6 +47,12 @@ Datec Losungen
 
 	The content of this document is related to TYPO3,
 	a GNU/GPL CMS/Framework available from `www.typo3.org <http://www.typo3.org/>`_.
+
+
+	**Other versions of this document**
+
+	:German Manual:
+		http://docs.typo3.org/typo3cms/extensions/datec_losungen/de-de/
 
 
 	**Table of Contents**

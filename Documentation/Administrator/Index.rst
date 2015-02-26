@@ -26,7 +26,7 @@ Installation
 
   This extension is to use out-of-the-box, please follow these steps:
 	1. Install the extension via the extension manager (datec_losungen)
- 	2. Add a new content element of the type 'plugin' to your homepage and select 'Datec Losungen' as plugin.
+	2. Add a new content element of the type 'plugin' to your homepage and select 'Datec Losungen' as plugin.
 	3. Add the static configuration file 'Datec Losungen' to your ROOT configuration template. (`HOW <http://wiki.typo3.org/TypoScript_Templates#Organizing_templates>`)
 	4. Check the Configuration section of this manual for any changes you might have to make, by default you shouldn't have to.
 	5. DONE!

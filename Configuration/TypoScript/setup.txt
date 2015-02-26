@@ -33,7 +33,7 @@ plugin.tx_dateclosungen_losungen {
         	dateFormat = 
         	licenses {
         		0 {
-        			text = © Evangelische Brüder-Unität - Herrnhuter Brüdergemeinde
+        			text = © Evangelische Brüder-Unität - Herrnhuter Brüdergemeine
         			url = http://www.ebu.de/
         		}
         		1 {

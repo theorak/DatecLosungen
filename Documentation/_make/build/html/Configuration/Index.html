@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Configuration Reference &mdash; DatecLosungen ###RELEASE### documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '###RELEASE###',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="DatecLosungen ###RELEASE### documentation" href="../Index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="../Index.html">DatecLosungen ###RELEASE### documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="configuration-reference">
+<span id="configuration"></span><h1>Configuration Reference<a class="headerlink" href="#configuration-reference" title="Permalink to this headline">¶</a></h1>
+<p>The extension is configured by default to use the watchwords from www.losungen.de, as is required by the attached terms of service (NUTZUNGSBEDINGUNGEN.pdf).
+But if necessary, you can modify the URL of the server and the required filenames.
+Every change can be done in the constants-editor in the template-section.</p>
+<p>You may also adapt the template for layout and the stylesheet.</p>
+<div class="section" id="typoscript-reference">
+<span id="configuration-typoscript"></span><h2>TypoScript Reference<a class="headerlink" href="#typoscript-reference" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="properties">
+<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
+<div class="ts-properties container">
+<table border="1" class="docutils">
+<colgroup>
+<col width="26%" />
+<col width="7%" />
+<col width="41%" />
+<col width="26%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Property</th>
+<th class="head">Data type</th>
+<th class="head">Description</th>
+<th class="head">Default</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>view.templateRootPath</td>
+<td>string</td>
+<td>Constant, path to template files if you wish to use your own.</td>
+<td>EXT:datec_losungen/Resources/Private/Templates/</td>
+</tr>
+<tr class="row-odd"><td>view.partialRootPath</td>
+<td>string</td>
+<td>Constant, path to partial template files if you wish to use your own.</td>
+<td>EXT:datec_losungen/Resources/Private/Partials/</td>
+</tr>
+<tr class="row-even"><td>view.layoutRootPath</td>
+<td>string</td>
+<td>Constant, path to layout files if you wish to use your own.</td>
+<td>EXT:datec_losungen/Resources/Private/Layouts/</td>
+</tr>
+<tr class="row-odd"><td>settings.display.dateFormat</td>
+<td>string</td>
+<td>Date format string, compatible with PHP function date(). Only used if set.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>settings.display.licenses</td>
+<td>array</td>
+<td><p class="first">Array of licenses with text and url, like so
+:ts:&#8217;licences {</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>0 {</dt>
+<dd>text = TEXT
+url = <a class="reference external" href="http://example.com">http://example.com</a></dd>
+</dl>
+<p>}
+1 {</p>
+<blockquote>
+<div>...</div></blockquote>
+<p>}</p>
+</div></blockquote>
+<p class="last">}&#8217;</p>
+</td>
+<td>2 default licenses</td>
+</tr>
+<tr class="row-odd"><td>settings.xmlConf.serverUrl</td>
+<td>string</td>
+<td>Server root, where to download the watchwords zip from.</td>
+<td><a class="reference external" href="http://www.brueder-unitaet.de/download/">http://www.brueder-unitaet.de/download/</a></td>
+</tr>
+<tr class="row-even"><td>settings.xmlConf.zipName</td>
+<td>string</td>
+<td>Name of the ZIP file, include YEAR to have it yearly replaced.</td>
+<td>Losung_YEAR_XML.zip</td>
+</tr>
+<tr class="row-odd"><td>settings.xmlConf.xmlName</td>
+<td>string</td>
+<td>Name of the XML file, include YEAR to have it yearly replaced.</td>
+<td>Losungen Free YEAR.xml</td>
+</tr>
+<tr class="row-even"><td>settings.xmlConf.termsName</td>
+<td>string</td>
+<td>Name of the terms-of-use file.</td>
+<td>Nutzungsbedingungen.pdf</td>
+</tr>
+<tr class="row-odd"><td>settings.xmlConf.encoding</td>
+<td>string</td>
+<td>Encoding of the xml file, will decode for iso or utf8 output.</td>
+<td>iso</td>
+</tr>
+<tr class="row-even"><td>settings.xmlConf.xmlTree.rootNode</td>
+<td>string</td>
+<td>Name of the root node in XML.</td>
+<td>FreeXml</td>
+</tr>
+<tr class="row-odd"><td>settings.xmlConf.xmlTree.treeNode</td>
+<td>string</td>
+<td>Name of the tree node in XML.</td>
+<td>Losungen</td>
+</tr>
+<tr class="row-even"><td>settings.xmlConf.xmlTree.branchDate</td>
+<td>string</td>
+<td>Name of the watchword DATE branch node in XML.</td>
+<td>Datum</td>
+</tr>
+<tr class="row-odd"><td>settings.xmlConf.xmlTree.branchWeekday</td>
+<td>string</td>
+<td>Name of the watchword WEEKDAY branch node in XML.</td>
+<td>Wtag</td>
+</tr>
+<tr class="row-even"><td>settings.xmlConf.xmlTree.branchSunday</td>
+<td>string</td>
+<td>Name of the watchword SUN/-HOLYDAY branch node in XML.</td>
+<td>Sonntag</td>
+</tr>
+<tr class="row-odd"><td>settings.xmlConf.xmlTree.branchWatchwordText</td>
+<td>string</td>
+<td>Name of the watchword WATCHWORD TEXT branch node in XML.</td>
+<td>Losungstext</td>
+</tr>
+<tr class="row-even"><td>settings.xmlConf.xmlTree.branchWatchwordVerse</td>
+<td>string</td>
+<td>Name of the watchword WATCHWORD VERSE branch node in XML.</td>
+<td>Losungsvers</td>
+</tr>
+<tr class="row-odd"><td>settings.xmlConf.xmlTree.branchDidactictextText</td>
+<td>string</td>
+<td>Name of the watchword DIDACTIC-TEXT TEXT branch node in XML.</td>
+<td>Lehrtext</td>
+</tr>
+<tr class="row-even"><td>settings.xmlConf.xmlTree.branchDidactictextVerse</td>
+<td>string</td>
+<td>Name of the watchword DIDACTIC-TEXT VERSE branch node in XML.</td>
+<td>Lehrtextvers</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../Index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Configuration Reference</a><ul>
+<li><a class="reference internal" href="#typoscript-reference">TypoScript Reference</a><ul>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/Configuration/Index.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="../Index.html">DatecLosungen ###RELEASE### documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, ###AUTHOR###.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
+    </div>
+  </body>
+</html>

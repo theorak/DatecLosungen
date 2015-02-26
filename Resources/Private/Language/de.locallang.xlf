@@ -8,7 +8,7 @@
 			</trans-unit>
 			
 			<trans-unit id="tx_dateclosungen.labels.watchword">
-				<target>Die Losungen der Herrnhuter Brüdergemeinde:</target>
+				<target>Die Losungen der Herrnhuter Brüdergemeine:</target>
 			</trans-unit>
 			<trans-unit id="tx_dateclosungen.labels.watchword.watchwordText">
 				<target>Losungstext</target>

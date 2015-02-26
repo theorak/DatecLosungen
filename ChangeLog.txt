@@ -5,6 +5,17 @@ This is the changelog description file for 'datec_losungen' authored by Philipp 
 
 ------------------------
 
+Release Version 1.0.2
+=====================
+
+[MANUAL/LANG] corrected text
+[MANUAL] added link to translated versions
+
+Release Version 1.0.1
+=====================
+
+[MANUAL] corrected manual rendering
+
 Release Version 1.0.0
 =====================
 

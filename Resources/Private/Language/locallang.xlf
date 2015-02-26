@@ -8,7 +8,7 @@
 			</trans-unit>
 			
 			<trans-unit id="tx_dateclosungen.labels.watchword">
-				<source>The watchwords of the Herrnhuter Brüdergemeinde:</source>
+				<source>The watchwords of the Herrnhuter Brüdergemeine:</source>
 			</trans-unit>
 			<trans-unit id="tx_dateclosungen.labels.watchword.watchwordText">
 				<source>Watchword Text</source>

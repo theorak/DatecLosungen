@@ -17,8 +17,8 @@ Introduction
 What does it do?
 ----------------
 
-This extension add a new plugin to fetch and display the daily German watchwords (“Losungen”).
-Important: This extension will only display the German verses from the official homepage of the Brüdergemeinde Hernnhut (www.losungen.de).
+This extension add a new plugin to fetch and display the daily German watchwords ("Losungen").
+Important: This extension will only display the German verses from the official homepage of the Brüdergemeine Herrnhut (http://www.losungen.de/_).
 The current watchwords information is yearly downloaded and unzipped from above mentioned site, not manual intervention is needed for this process. This extension will use the TYPO3 temporary directory for storage of all downloaded files.
 
 
@@ -34,4 +34,3 @@ Here you see how it looks:
    :alt: Datec Losungen
 
    Abbildung 1: Losung Beispiel - http://efg-belzig.de, 04.02.2015
-   

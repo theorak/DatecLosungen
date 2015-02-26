@@ -1,0 +1,7 @@
+C:\dev\xampp\htdocs\blank\typo3conf\ext\datec_losungen\Documentation\Configuration\Index.rst:40: ERROR: Unexpected indentation.
+C:\dev\xampp\htdocs\blank\typo3conf\ext\datec_losungen\Documentation\Configuration\Index.rst:44: WARNING: Definition list ends without a blank line; unexpected unindent.
+C:\dev\xampp\htdocs\blank\typo3conf\ext\datec_losungen\Documentation\Configuration\Index.rst:45: ERROR: Unexpected indentation.
+C:\dev\xampp\htdocs\blank\typo3conf\ext\datec_losungen\Documentation\Configuration\Index.rst:47: WARNING: Block quote ends without a blank line; unexpected unindent.
+C:\dev\xampp\htdocs\blank\typo3conf\ext\datec_losungen\Documentation\Configuration\Index.rst:48: WARNING: Block quote ends without a blank line; unexpected unindent.
+WARNING: master file C:\dev\xampp\htdocs\blank\typo3conf\ext\datec_losungen\Documentation\Index.rst not found
+C:\dev\xampp\htdocs\blank\typo3conf\ext\datec_losungen\Documentation\index.rst:: WARNING: document isn't included in any toctree
