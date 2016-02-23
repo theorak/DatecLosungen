@@ -34,10 +34,10 @@ Eigenschaften
 	view.partialRootPath                                string          Konstante, Pfad zu den Partials.                                             EXT:datec_losungen/Resources/Private/Partials/
 	view.layoutRootPath                                 string          Konstante, Pfad zu den Layouts.                                              EXT:datec_losungen/Resources/Private/Layouts/
 	settings.display.dateFormat                         string          Datumsformat, kompatibel mit PHP-Funktion date(). Nur wenn angegeben.
-	settings.display.licenses                           array           Liste aus Lizenzen mit URL und text                                          2 default licenses
+	settings.display.licenses                           array           Liste aus Lizenzen mit URL und Text                                          2 default licenses
 	settings.xmlConf.serverUrl                          string          Serveradresse, von diesem werden die Losungen geladen                        http://www.brueder-unitaet.de/download/
-	settings.xmlConf.zipName                            string          Name der ZIP file, enthält YEAR um jährlich zu aktulisieren.                 Losung_YEAR_XML.zip
-	settings.xmlConf.xmlName                            string          Name der XML file, enthält YEAR um jährlich zu aktulisieren.                 Losungen Free YEAR.xml
+	settings.xmlConf.zipName                            string          Name der ZIP File, enthält YEAR um jährlich zu aktulisieren.                 Losung_YEAR_XML.zip
+	settings.xmlConf.xmlName                            string          Name der XML File, enthält YEAR um jährlich zu aktulisieren.                 Losungen Free YEAR.xml
 	settings.xmlConf.termsName                          string          Name der Nutzungsbedingungen Datei.                                          Nutzungsbedingungen.pdf
 	settings.xmlConf.encoding                           string          Encoding der XML Datei, decodiert iso oder utf8.                             iso
 	settings.xmlConf.xmlTree.rootNode                   string          Name der root node in XML.                                                   FreeXml

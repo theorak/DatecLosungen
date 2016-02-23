@@ -63,9 +63,9 @@ class LosungenController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
 			$this->view->assign('losung', $losungResult->losung);
 		} else {
 			if (empty($losungResult->message)) {				
-				$this->flashMessageContainer->add(\TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('tx_dateclosungen.errors.unknown', $this->extKey), '', \TYPO3\CMS\Core\Messaging\FlashMessage::ERROR);
+				$this->addFlashMessage(\TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('tx_dateclosungen.errors.unknown', $this->extKey), '', \TYPO3\CMS\Core\Messaging\FlashMessage::ERROR);
 			} else {
-				$this->flashMessageContainer->add($losungResult->message, '', \TYPO3\CMS\Core\Messaging\FlashMessage::ERROR);
+				$this->addFlashMessage($losungResult->message, '', \TYPO3\CMS\Core\Messaging\FlashMessage::ERROR);
 			}
 				
 		}

@@ -26,7 +26,7 @@ Datec Losungen
 	:Beschreibung:
 		Fügt ein neues Frontend-Plugin für die deutschen Losungen hinzu.
 
-	:Schluesselwoerter:
+	:Tags:
 		datec, losungen, watchwords, brüdergemeine
 
 	:Copyright:

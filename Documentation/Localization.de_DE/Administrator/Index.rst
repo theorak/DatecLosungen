@@ -19,7 +19,7 @@ Administrator Handbuch
 Installation
 ------------
 
-- We funktioniert es?
+- Wie funktioniert es?
 
   Die Losungen werden jährlich von http://www.brueder-unitaet.de/download/ heruntergeladen, dieser Download beinhaltet eine gepackte Datei (.zip) welche in typo3temp entpackt wird.
   Die beinhaltete XML Datei wird nach der aktuellen, täglichen Losung geparst, welche dann über ein Frontend Plugin angezeigt wird.
