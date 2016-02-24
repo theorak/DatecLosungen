@@ -11,7 +11,7 @@ conf.py:
   copyright: 2015
   project: Datec Losungen
   version: 1.0
-  release: 1.1.0
+  release: 1.1.1
    html_theme_options:
     github_repository: theorak/datec_losungen
     github_branch: master
