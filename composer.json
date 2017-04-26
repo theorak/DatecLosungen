@@ -3,11 +3,11 @@
   "type": "typo3-cms-extension",
   "description": "",
   "keywords": [
-    "form",
-    "generic",
-    "application",
-    "content",
-    "elements"
+    "datec",
+    "losungen",
+    "watchwords",
+    "bruedergemeinde",
+    "front-end"
   ],
   "homepage": "http://www.datec-schmidt.de/",
   "authors": [
@@ -20,6 +20,10 @@
   ],
   "support": {
     "issues": "https://github.com/theorak/datec_losungen/issues"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "typo3/cms-core": "^7.6.0"
   },
   "autoload": {
     "psr-4": {
