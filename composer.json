@@ -23,7 +23,7 @@
   },
   "require": {
     "php": ">=5.5.0",
-    "typo3/cms-core": "^7.6.0"
+    "typo3/cms-core": "^8.0"
   },
   "replace": {
     "datec_losungen": "self.version",
