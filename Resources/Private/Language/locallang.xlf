@@ -22,13 +22,13 @@
 			</trans-unit>			
 						
 			<trans-unit id="tx_dateclosungen.errors.unknown">
-				<target>An unknown error occurred.</target>
+				<source>An unknown error occurred.</source>
 			</trans-unit>
 			<trans-unit id="tx_dateclosungen.errors.configurationError">
 				<source>Something is very wrong with the configuration.</source>
 			</trans-unit>			
 			<trans-unit id="tx_dateclosungen.errors.watchwordNotLoaded">
-				<target>The watchword couldn't be loaded.</target>
+				<source>The watchword couldn't be loaded.</source>
 			</trans-unit>
 			<trans-unit id="tx_dateclosungen.errors.fileErrors.zipFileNotFound">
 				<source>The watchwords ZIP file was not found.</source>
@@ -44,6 +44,124 @@
 			</trans-unit>
 			<trans-unit id="tx_dateclosungen.errors.fileErrors.xmlFileNotFound">
 				<source>The watchwords XML file was not found.</source>
+			</trans-unit>
+
+			<trans-unit id="dates.week.current">
+				<source>Week from: </source>
+			</trans-unit>
+			<trans-unit id="dates.week.1">
+				<source>Monday</source>
+			</trans-unit>
+			<trans-unit id="dates.week.2">
+				<source>Tuesday</source>
+			</trans-unit>
+			<trans-unit id="dates.week.3">
+				<source>Wednesday</source>
+			</trans-unit>
+			<trans-unit id="dates.week.4">
+				<source>Thursday</source>
+			</trans-unit>
+			<trans-unit id="dates.week.5">
+				<source>Friday</source>
+			</trans-unit>
+			<trans-unit id="dates.week.6">
+				<source>Saturday</source>
+			</trans-unit>
+			<trans-unit id="dates.week.7">
+				<source>Sunday</source>
+			</trans-unit>
+			<trans-unit id="dates.week.1_short">
+				<source>Mon</source>
+			</trans-unit>
+			<trans-unit id="dates.week.2_short">
+				<source>Tue</source>
+			</trans-unit>
+			<trans-unit id="dates.week.3_short">
+				<source>Wed</source>
+			</trans-unit>
+			<trans-unit id="dates.week.4_short">
+				<source>Thu</source>
+			</trans-unit>
+			<trans-unit id="dates.week.5_short">
+				<source>Fri</source>
+			</trans-unit>
+			<trans-unit id="dates.week.6_short">
+				<source>Sat</source>
+			</trans-unit>
+			<trans-unit id="dates.week.7_short">
+				<source>Sun</source>
+			</trans-unit>
+			<trans-unit id="dates.month.01">
+				<source>January</source>
+			</trans-unit>
+			<trans-unit id="dates.month.02">
+				<source>February</source>
+			</trans-unit>
+			<trans-unit id="dates.month.03">
+				<source>March</source>
+			</trans-unit>
+			<trans-unit id="dates.month.04">
+				<source>April</source>
+			</trans-unit>
+			<trans-unit id="dates.month.05">
+				<source>May</source>
+			</trans-unit>
+			<trans-unit id="dates.month.06">
+				<source>June</source>
+			</trans-unit>
+			<trans-unit id="dates.month.07">
+				<source>July</source>
+			</trans-unit>
+			<trans-unit id="dates.month.08">
+				<source>August</source>
+			</trans-unit>
+			<trans-unit id="dates.month.09">
+				<source>September</source>
+			</trans-unit>
+			<trans-unit id="dates.month.10">
+				<source>October</source>
+			</trans-unit>
+			<trans-unit id="dates.month.11">
+				<source>November</source>
+			</trans-unit>
+			<trans-unit id="dates.month.12">
+				<source>December</source>
+			</trans-unit>
+			<trans-unit id="dates.month.01_short">
+				<source>Jan</source>
+			</trans-unit>
+			<trans-unit id="dates.month.02_short">
+				<source>Feb</source>
+			</trans-unit>
+			<trans-unit id="dates.month.03_short">
+				<source>Mar</source>
+			</trans-unit>
+			<trans-unit id="dates.month.04_short">
+				<source>Apr</source>
+			</trans-unit>
+			<trans-unit id="dates.month.05_short">
+				<source>May</source>
+			</trans-unit>
+			<trans-unit id="dates.month.06_short">
+				<source>Jun</source>
+			</trans-unit>
+			<trans-unit id="dates.month.07_short">
+				<source>Jul</source>
+			</trans-unit>
+			<trans-unit id="dates.month.08_short">
+				<source>Aug</source>
+			</trans-unit>
+			<trans-unit id="dates.month.09_short">
+				<source>Sep</source>
+			</trans-unit>
+			<trans-unit id="dates.month.10_short">
+				<source>Oct</source>
+			</trans-unit>
+			<trans-unit id="dates.month.11_short">
+				<source>Nov</source>
+			</trans-unit>
+			<trans-unit id="dates.month.12_short">
+				<source>Dec</source>
 			</trans-unit>
 			
 		</body>
